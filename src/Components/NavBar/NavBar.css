@@ -1,0 +1,133 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  padding: 15px 0px;
+  background-color: #2b315eee;
+}
+.navbar .ctn {
+  display: flex;
+  column-gap: 20px;
+  position: relative;
+}
+.navbar .ctn .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .ctn .logo img {
+  display: block;
+  max-height: 50px;
+}
+.navbar .ctn .logo h1 {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.navbar .ctn .search {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.navbar .ctn .search .i {
+  font-size: 1.5rem;
+  column-gap: 10px;
+  color: #cfcfcf;
+  cursor: pointer;
+  transition: 0.2s color;
+}
+.navbar .ctn .search .i:hover {
+  color: #fff;
+}
+.navbar .ctn .search input {
+  height: 100%;
+  width: calc(100% - 30px);
+  left: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: #23284e;
+  color: #cfcfcf;
+  padding: 0px 15px;
+  z-index: -1;
+  opacity: 0;
+  width: 0px;
+  transition: 0.2s all;
+}
+.navbar .ctn .search:hover input {
+  z-index: 1;
+  opacity: 1;
+  width: calc(100% - 30px);
+  left: 15px;
+}
+.navbar .ctn > .menu {
+  display: flex;
+  gap: 30px;
+  display: none;
+}
+.navbar .ctn .menu > .ln {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.1s;
+  font-size: 1em;
+  color: #cfcfcf;
+  position: relative;
+}
+.navbar .ctn .menu > .ln:hover {
+  color: #fff;
+}
+.navbar .ctn > .menu > .ln > .menu-pages {
+  background-color: #23284e;
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  padding: 20px 0px 20px 30px;
+  display: none;
+}
+.navbar .ctn > .menu > .pages:hover > .menu-pages {
+  display: flex;
+}
+.navbar .ctn > .menu > .ln > .menu-pages .lp {
+  color: #cfcfcf;
+  cursor: pointer;
+  transition: color 0.1s;
+}
+.navbar .ctn > .menu > .ln > .menu-pages .lp:hover {
+  color: #fff;
+}
+.navbar .ctn .button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+.navbar .ctn .menu-phone-icon {
+  display: flex;
+  align-items: center;
+  color: #cfcfcf;
+  font-size: 1.5rem;
+  margin-left: auto;
+  cursor: pointer;
+  transform: 0.2s color;
+}
+.navbar .ctn .menu-phone-icon:hover {
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .navbar .ctn > .menu {
+    display: flex;
+  }
+  .navbar .ctn .button {
+    display: flex;
+  }
+  .navbar .ctn .menu-phone-icon {
+    display: none;
+  }
+}
