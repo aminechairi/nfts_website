@@ -3,7 +3,7 @@
   top: 0;
   z-index: 3;
   padding: 15px 0px;
-  background-color: #2b315eee;
+  background-color: #2b315ed8;
 }
 .navbar .ctn {
   display: flex;
@@ -90,6 +90,7 @@
   row-gap: 14px;
   padding: 20px 0px 20px 30px;
   display: none;
+  z-index: 3;
 }
 .navbar .ctn > .menu > .pages:hover > .menu-pages {
   display: flex;
@@ -108,6 +109,11 @@
   align-items: center;
   display: none;
 }
+.navbar .ctn .button button {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
 .navbar .ctn .menu-phone-icon {
   display: flex;
   align-items: center;
@@ -120,6 +126,66 @@
 .navbar .ctn .menu-phone-icon:hover {
   color: #fff;
 }
+.navbar .bg {
+  width: 100%;
+  height: calc(100vh - 79.98px + 15px);
+  position: absolute;
+  left: 0;
+  top: 78.98px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.76);
+}
+.navbar .ctn .menu-phone {
+  position: absolute;
+  top: calc(100% + 15px);
+  left: 0;
+  width: 100%;
+  background-color: #23284e;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  transition: all 0.2s;
+  z-index: 2;
+}
+.navbar .ctn .menu-phone .ln {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.1s;
+  font-size: 1rem;
+  color: #cfcfcf;
+  padding: 10px 15px;
+  transition: color 0.2s;
+}
+.navbar .ctn .menu-phone .ln:hover {
+  color: #fff;
+}
+.navbar .ctn .menu-phone .pages {
+  display: block;
+  padding: 0px;
+}
+.navbar .ctn .menu-phone .pages span {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+.navbar .ctn .menu-phone .pages .menu-pages {
+  background-color: #191c38;
+  padding: 10px 0px;
+}
+.navbar .ctn .menu-phone .pages .menu-pages .lp {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.1s;
+  font-size: 1rem;
+  color: #cfcfcf;
+  padding: 10px 20px;
+  transition: color 0.2s;
+}
+.navbar .ctn .menu-phone .pages .menu-pages .lp:hover {
+  color: #fff;
+}
 @media (min-width: 992px) {
   .navbar .ctn > .menu {
     display: flex;
@@ -128,6 +194,9 @@
     display: flex;
   }
   .navbar .ctn .menu-phone-icon {
+    display: none;
+  }
+  .navbar .ctn .menu-phone {
     display: none;
   }
 }

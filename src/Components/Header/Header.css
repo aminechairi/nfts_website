@@ -23,6 +23,7 @@
 .ab .bg .texts h1 {
   color: #fff;
   text-transform: capitalize;
+  line-height: 60px;
 }
 .ab .bg .texts p {
   color: #cfcfcf;
