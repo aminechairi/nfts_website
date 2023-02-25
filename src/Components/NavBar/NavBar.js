@@ -67,6 +67,9 @@ export default function NavBar() {
                 <span onClick={() => {
                   setMenuPages(!menuPages)
                 }}> Pages <AiFillCaretDown /> </span>
+              </li>
+
+
                   <ul className="menu-pages"
                     style={{
                       display: menuPages === false ?
@@ -82,7 +85,18 @@ export default function NavBar() {
                     <li className="lp"> Sign In Page </li>
                     <li className="lp"> Sign Up Page </li>
                   </ul>
-              </li>
+
+
+
+
+
+
+
+
+
+
+
+
               <li className="ln"> Support </li>
             </ul>
         </div>

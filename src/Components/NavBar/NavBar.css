@@ -169,18 +169,18 @@
   align-items: center;
   padding: 10px 15px;
 }
-.navbar .ctn .menu-phone .pages .menu-pages {
+.navbar .ctn .menu-phone .menu-pages {
   background-color: #191c38;
   padding: 10px 0px;
 }
-.navbar .ctn .menu-phone .pages .menu-pages .lp {
+.navbar .ctn .menu-phone .menu-pages .lp {
   display: flex;
   align-items: center;
   cursor: pointer;
   transition: color 0.1s;
   font-size: 1rem;
   color: #cfcfcf;
-  padding: 10px 20px;
+  padding: 10px 25px;
   transition: color 0.2s;
 }
 .navbar .ctn .menu-phone .pages .menu-pages .lp:hover {
