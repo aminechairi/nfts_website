@@ -53,63 +53,67 @@ export default function NavBar() {
               setMenuPages(false)
             }} />
           </div>
-            <ul className="menu-phone"
-              style={{
-                display: menu === false ?
-                  "none"
-                : "flex",
-              }}
-            >
-              <li className="ln"> Home </li>
-              <li className="ln"> Explore </li>
-              <li className="ln"> Community </li>
-              <li className="ln pages">
-                <span onClick={() => {
-                  setMenuPages(!menuPages)
-                }}> Pages <AiFillCaretDown /> </span>
-              </li>
-
-
-                  <ul className="menu-pages"
+        </div>
+        <div className="ab-menu-phone"
+          style={{
+            left: menu === false ?
+              "-100%"
+            : "0"
+              ,
+            opacity:
+              menu === false ?
+                "0"
+              : 
+                "1"
+            ,
+          }}
+        >
+              <ul className="menu-phone">
+                <li className="ln"> Home </li>
+                <li className="ln"> Explore </li>
+                <li className="ln"> Community </li>
+                <li className="ln pages">
+                  <span onClick={() => {
+                    setMenuPages(!menuPages)
+                  }}> Pages <AiFillCaretDown /> </span>
+                </li>
+                  <div
+                    className="ab-menu-pages"
                     style={{
-                      display: menuPages === false ?
-                        "none"
-                      : "block",
+                      height:
+                        menuPages === false ?
+                          "0px"
+                        : 
+                          "361.85px"
+                      ,
                     }}
                   >
-                    <li className="lp"> Explore Items </li>
-                    <li className="lp"> Item Details </li>
-                    <li className="lp"> Create Item </li>
-                    <li className="lp"> Connect Wallet </li>
-                    <li className="lp"> Support </li>
-                    <li className="lp"> Sign In Page </li>
-                    <li className="lp"> Sign Up Page </li>
-                  </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-              <li className="ln"> Support </li>
-            </ul>
+                    <ul className="menu-pages">
+                      <li className="lp"> Explore Items </li>
+                      <li className="lp"> Item Details </li>
+                      <li className="lp"> Create Item </li>
+                      <li className="lp"> Connect Wallet </li>
+                      <li className="lp"> Support </li>
+                      <li className="lp"> Sign In Page </li>
+                      <li className="lp"> Sign Up Page </li>
+                    </ul>
+                  </div>
+                <li className="ln"> Support </li>
+              </ul>
         </div>
-        <div className="bg" 
+        <div className="bg"
           style={{
-            display: menu === true ?
-              "block"
-            : "none",
+            display:
+              menu === false ?
+                "none"
+              : 
+                "block"
+            ,
           }}
           onClick={() => {
-            setMenu(!menu)
-            setMenuPages(false)
-          }}>
+            setMenu(false)
+          }}
+        >
         </div>
       </nav>
     </>

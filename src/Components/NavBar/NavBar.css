@@ -127,63 +127,62 @@
   color: #fff;
 }
 .navbar .bg {
-  width: 100%;
-  height: calc(100vh - 79.98px + 15px);
   position: absolute;
-  left: 0;
-  top: 78.98px;
+  top: 100%;
+  left: 0px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.76);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.836);
+  z-index: 1;
+  overflow: auto;
 }
-.navbar .ctn .menu-phone {
+.navbar .ab-menu-phone {
   position: absolute;
-  top: calc(100% + 15px);
-  left: 0;
-  width: 100%;
-  background-color: #23284e;
-  display: flex;
-  flex-direction: column;
-  padding: 10px 0px;
-  transition: all 0.2s;
+  top: 100%;
   z-index: 2;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.3s all;
 }
-.navbar .ctn .menu-phone .ln {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  transition: color 0.1s;
-  font-size: 1rem;
+.navbar .ab-menu-phone .menu-phone {
+  background-color: #23284e;
+  padding: 10px 0px;
+}
+.navbar .ab-menu-phone .menu-phone .ln {
+  font-size: 1.2rem;
   color: #cfcfcf;
   padding: 10px 15px;
+  cursor: pointer;
   transition: color 0.2s;
 }
-.navbar .ctn .menu-phone .ln:hover {
+.navbar .ab-menu-phone .menu-phone .ln:hover {
   color: #fff;
 }
-.navbar .ctn .menu-phone .pages {
-  display: block;
+.navbar .ab-menu-phone .menu-phone .pages {
   padding: 0px;
 }
-.navbar .ctn .menu-phone .pages span {
+.navbar .ab-menu-phone .menu-phone span {
   display: flex;
   align-items: center;
+  column-gap: 6px;
   padding: 10px 15px;
 }
-.navbar .ctn .menu-phone .menu-pages {
-  background-color: #191c38;
+.navbar .ab-menu-phone .ab-menu-pages {
+  overflow: hidden;
+  transition: all 0.2s;
+}
+.navbar .ab-menu-phone .menu-phone .ab-menu-pages .menu-pages {
+  background-color: #181b35;
   padding: 10px 0px;
 }
-.navbar .ctn .menu-phone .menu-pages .lp {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  transition: color 0.1s;
-  font-size: 1rem;
+.navbar .ab-menu-phone .menu-phone .menu-pages .lp {
+  font-size: 1.2rem;
   color: #cfcfcf;
   padding: 10px 25px;
+  cursor: pointer;
   transition: color 0.2s;
 }
-.navbar .ctn .menu-phone .pages .menu-pages .lp:hover {
+.navbar .ab-menu-phone .menu-phone .menu-pages .lp:hover {
   color: #fff;
 }
 @media (min-width: 992px) {
