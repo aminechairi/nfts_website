@@ -9,7 +9,7 @@
 .ab .bg {
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(to top, #141420, #00000046);
+  background-image: linear-gradient(to top, var(--color-1), #00000046);
 }
 .ab .bg .ctn {
   padding-top: 100px;
@@ -21,12 +21,12 @@
   flex-direction: column;
 }
 .ab .bg .texts h1 {
-  color: #fff;
+  color: var(--text-1);
   text-transform: capitalize;
   line-height: 60px;
 }
 .ab .bg .texts p {
-  color: #cfcfcf;
+  color: var(--text-2);
   text-transform: capitalize;
   font-size: 1.2rem;
 }

@@ -29,11 +29,26 @@
   /* Large */
 @media (min-width: 1200px) {
   .ctn {
-      width: 1170px;
+      width: 1200px;
       /* background-color: blue; */
   }
 }
 /* end media query */
+
+:root {
+  --text-1: #ffffff;
+  --text-2: #bbbbbb;
+  --color-1: #141420;
+  --color-2: #5142fc;
+  --color-3: #2c2c39;
+  --borders: #777777;
+  --navbar-1: #2b315ed8;
+  --navbar-menu-pages: #23284e;
+  --navbar-menu-pages-phone: #1d2141d8;
+  --bg: #000000d7;
+}
+
+
 
 
 
@@ -43,10 +58,10 @@
 .button_1 {
   display: block;
   font-size: 1em;
-  color: #fff;
+  color: var(--text-1);
   padding: 12px 22px;
-  background-color: rgb(81 66 252);
-  border: 1px solid rgb(81 66 252);
+  background-color: var(--color-2);
+  border: 1px solid var(--color-2);
   transition: all 0.2s;
   border-radius: 20px;
 }
@@ -54,12 +69,12 @@
 .button_2 {
   display: block;
   font-size: 1em;
-  color: #fff;
+  color: var(--text-1);
   padding: 8px 22px;
-  border: 1px solid rgb(81 66 252);
+  border: 1px solid var(--color-2);
   transition: all 0.2s;
   border-radius: 20px;
 }
 .button_2:hover {
-  background-color: rgb(81 66 252);
+  background-color: var(--color-2);
 }

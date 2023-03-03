@@ -1,0 +1,119 @@
+.live-auctions {
+  background-color: var(--color-1);
+}
+.live-auctions .ctn > .title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--borders);
+  padding: 20px 0px;
+}
+.live-auctions .ctn > .title h1 {
+  color: var(--text-1);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.live-auctions .ctn > .title .button button {
+  border: none;
+  transition: 0.2s all;
+  border-radius: 6px;
+}
+.live-auctions .ctn .ab-cards {
+  padding: 40px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px 40px;
+}
+.live-auctions .ctn .ab-cards .borderr {
+  overflow: hidden;
+  padding: 1px;
+  border-radius: 10px;
+  background-color: var(--borders);
+  transition: 0.2s all;
+}
+.live-auctions .ctn .ab-cards .borderr:hover {
+  background-image: linear-gradient( 150deg, #f2cb88, #db334a, rgb(81 66 252));
+}
+.live-auctions .ctn .ab-cards .borderr .box {
+  background-color: var(--color-3);
+  padding: 14px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.live-auctions .ctn .ab-cards .borderr .box .ab-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.live-auctions .ctn .ab-cards .borderr .box .ab-img {
+  position: relative;
+}
+.live-auctions .ctn .ab-cards .borderr .box .ab-img .likes {
+  background-color: var(--text-1);
+  border-radius: 10px;
+  display: flex;
+  width: fit-content;
+  column-gap: 6px;
+  padding: 6px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  opacity: 0;
+  transition: 0.2s all;
+}
+.live-auctions .ctn .ab-cards .borderr:hover .box .ab-img .likes {
+  opacity: 1;
+}
+.live-auctions .ctn .ab-cards .borderr .box .ab-img .likes .i {
+  font-size: 1rem;
+}
+.live-auctions .ctn .ab-cards .borderr .box .ab-img .likes .number-likes {
+  font-size: 0.8rem;
+  font-size: 600;
+}
+.live-auctions .ctn .ab-cards .borderr .box .title {
+  font-size: 1.2rem;
+  color: var(--text-1);
+  padding: 16px 0px 16px;
+  transition: 0.2s all;
+}
+.live-auctions .ctn .ab-cards .borderr:hover .box .title {
+  color: var(--color-2);
+}
+.live-auctions .ctn .ab-cards .borderr .box .persons {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  padding: 0px 0px 20px;
+}
+.live-auctions .ctn .ab-cards .borderr .box .persons .img {
+  flex-shrink: 0;
+}
+.live-auctions .ctn .ab-cards .borderr .box .persons .img img {
+  border-radius: 50%;
+  width: 40px;
+}
+.live-auctions .ctn .ab-cards .borderr .box .data {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.live-auctions .ctn .ab-cards .borderr .box .data .a, .b {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.live-auctions .ctn .ab-cards .borderr .box .data .a {
+  color: var(--text-1);
+}
+.live-auctions .ctn .ab-cards .borderr .box .data .b {
+  color: var(--text-2);
+}
+.live-auctions .ctn .ab-cards .borderr .box .n {
+  background-color: #565664;
+  color: var(--text-1);
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 6px 0px;
+  border-radius: 10px;
+}
