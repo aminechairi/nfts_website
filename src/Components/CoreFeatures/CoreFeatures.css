@@ -1,0 +1,90 @@
+.core_features {
+  background-color: var(--color-1);
+  padding: 20px 0px 40px;
+}
+.core_features .ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.core_features .ctn h1 {
+  color: var(--text-1);
+  text-transform: capitalize;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  margin-bottom: 20px;
+  font-weight: 700px;
+  text-align: center;
+}
+.core_features .ctn p {
+  color: var(--text-2);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .core_features .ctn p {
+    width: 600px;
+  }
+}
+
+.boxs {
+  background-color: var(--color-1);
+}
+.boxs .ctn {
+  padding: 20px 15px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px 40px;
+}
+.boxs .ctn .box {
+  background-color: var(--color-3);
+  padding: 20px;
+  border-radius: 14px;
+  transition: 0.2s all;
+}
+.boxs .ctn .box:hover {
+  background-color: var(--text-1);
+}
+.boxs .ctn .box .ab-icons {
+  width: fit-content;
+  padding: 20px;
+  font-size: 2rem;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.boxs .ctn :nth-child(1) .ab-icons {
+  background-color: #fff0e9;
+  color: #ff766a;
+}
+.boxs .ctn :nth-child(2) .ab-icons {
+  background-color: #fff6dd;
+  color: #f5b70a;
+}
+.boxs .ctn :nth-child(3) .ab-icons {
+  background-color: #edf8f4;
+  color: #06de90;
+}
+.boxs .ctn :nth-child(4) .ab-icons {
+  background-color: #e1ddff;
+  color: #5142fc;
+}
+.boxs .ctn .box h1 {
+  color: var(--text-1);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.boxs .ctn .box:hover h1 {
+  color: var(--color-1);
+}
+.boxs .ctn .box p {
+  color: var(--text-2);
+  font-size: 1rem;
+  font-family: 700;
+  margin-bottom: 10px;
+}
+.boxs .ctn .box:hover p {
+  color: var(--color-1);
+}

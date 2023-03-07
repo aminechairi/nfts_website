@@ -3,6 +3,7 @@ import Header from "./Components/Header/Header";
 import TopArtists from "./Components/TopArtists/TopArtists";
 import LiveAuctions from "./Components/LiveAuctions/LiveAuctions";
 import TodaysPicks from "./Components/TodaysPicks/TodaysPicks";
+import CoreFeatures from "./Components/CoreFeatures/CoreFeatures";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <TopArtists />
       <LiveAuctions />
       <TodaysPicks />
+      <CoreFeatures />
     </>
   );
 }

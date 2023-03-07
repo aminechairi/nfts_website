@@ -1,6 +1,5 @@
 .ab {
   width: 100%;
-  min-height: 100vh;
   background-image: url("../../images/common-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,13 +7,11 @@
 }
 .ab .bg {
   width: 100%;
-  min-height: 100vh;
   background-image: linear-gradient(to top, var(--color-1), #00000046);
 }
 .ab .bg .ctn {
   padding-top: 100px;
-  padding-bottom: 100px;
-  min-height: 100vh;
+  padding-bottom: 40px;
   display: flex;
   column-gap: 60px;
   row-gap: 40px;
@@ -23,15 +20,20 @@
 .ab .bg .texts h1 {
   color: var(--text-1);
   text-transform: capitalize;
-  line-height: 60px;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  margin-bottom: 20px;
+  font-weight: 700px;
 }
 .ab .bg .texts p {
   color: var(--text-2);
   text-transform: capitalize;
   font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 .ab .bg .img {
   flex-grow: 1;
+  display: none;
 }
 .ab .bg .img img {
   display: block;
@@ -48,6 +50,18 @@
   }
 }
 @media (min-width: 992px) {
+  .ab {
+    min-height: 100vh;
+  }
+  .ab .bg {
+    min-height: 100vh;
+  }
+  .ab .bg .ctn {
+    min-height: 100vh;
+  }
+  .ab .bg .img {
+    display: block;
+  }
   .ab .bg .ctn {
     padding-top: 0px;
     padding-bottom: 0px;

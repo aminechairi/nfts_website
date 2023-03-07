@@ -12,7 +12,7 @@ export default function TodaysPicks() {
           <div className="button"> 
             <button
               type="button"
-              className="button_1"
+              className="button_2"
               >
                 View All
             </button>
@@ -54,12 +54,12 @@ export default function TodaysPicks() {
               <div className="buttons">
                 <button
                   type="button"
-                  className="button_1">
+                  className="button_1 b_1">
                     Place Bid
                 </button>
                 <button
                   type="button"
-                  className="button_2">
+                  className="button_2 b_2">
                     View History
                 </button>
               </div>
@@ -68,6 +68,11 @@ export default function TodaysPicks() {
             )
           })
         }
+        </div>
+        <div className="ab-reload">
+          <button className="button_2">
+            Reload More...
+          </button>
         </div>
       </div>
     </div>

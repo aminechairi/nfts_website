@@ -12,11 +12,7 @@
   font-size: 2rem;
   font-weight: 700;
 }
-.todays-picks .ctn > .title .button button {
-  border: none;
-  transition: 0.2s all;
-  border-radius: 6px;
-}
+
 .todays-picks .ctn .ab-cards {
   padding: 40px 0px;
   display: grid;
@@ -56,11 +52,7 @@
   position: absolute;
   right: 4px;
   top: 4px;
-  opacity: 0;
   transition: 0.2s all;
-}
-.todays-picks .ctn .ab-cards .borderr:hover .box .ab-img .likes {
-  opacity: 1;
 }
 .todays-picks .ctn .ab-cards .borderr .box .ab-img .likes .i {
   font-size: 1rem;
@@ -114,22 +106,28 @@
   display: flex;
   margin-top: 10px;
 }
-.todays-picks .ctn .ab-cards .borderr .box .buttons .button_1, .button_2 {
+.todays-picks .ctn .ab-cards .borderr .box .buttons .b_1, .b_2 {
   font-size: 0.8rem;
   border-radius: 0px;
 }
-.todays-picks .ctn .ab-cards .borderr .box .buttons .button_1 {
+.todays-picks .ctn .ab-cards .borderr .box .buttons .b_1 {
   border-radius: 0px;
   border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;  
+  border-bottom-left-radius: 10px;
 }
-.todays-picks .ctn .ab-cards .borderr .box .buttons .button_2 {
+.todays-picks .ctn .ab-cards .borderr .box .buttons .b_2 {
   flex-grow: 1;
   border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;  
+  border-bottom-right-radius: 10px;
+  border: 1px solid var(--color-2);
 }
-.todays-picks .ctn .ab-cards .borderr .box .buttons .button_2:hover {
+.todays-picks .ctn .ab-cards .borderr .box .buttons .b_2:hover {
   color: var(--color-2);
   background-color: transparent;
   flex-grow: 1;
+}
+.todays-picks .ctn .ab-reload {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 40px;
 }

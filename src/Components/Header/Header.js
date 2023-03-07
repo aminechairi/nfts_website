@@ -6,10 +6,10 @@ export default function Header() {
       <div className="bg">
         <div className="ctn">
           <div className="texts">
-            <h1 className="mb-6 text-5xl font-bold">
-            Tailwind Template for NFT Marketplace and Web3 Platforms
+            <h1>
+              Tailwind Template for NFT Marketplace and Web3 Platforms
             </h1>
-            <p className="mb-6">
+            <p>
               Template for NFT, Token, and Web3 marketplace projects, based on Tailwind CSS. Comes with all the essential UI components and pages you need to build an NFT marketplace or all sorts of Web3 platforms.
             </p>
             <div className="buttons">

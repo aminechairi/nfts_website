@@ -12,7 +12,7 @@ export default function LiveAuctions() {
           <div className="button"> 
             <button
               type="button"
-              className="button_1"
+              className="button_2"
               >
                 View All
             </button>

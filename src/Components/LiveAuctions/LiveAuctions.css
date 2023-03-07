@@ -12,11 +12,6 @@
   font-size: 2rem;
   font-weight: 700;
 }
-.live-auctions .ctn > .title .button button {
-  border: none;
-  transition: 0.2s all;
-  border-radius: 6px;
-}
 .live-auctions .ctn .ab-cards {
   padding: 40px 0px;
   display: grid;
@@ -56,11 +51,7 @@
   position: absolute;
   right: 4px;
   top: 4px;
-  opacity: 0;
   transition: 0.2s all;
-}
-.live-auctions .ctn .ab-cards .borderr:hover .box .ab-img .likes {
-  opacity: 1;
 }
 .live-auctions .ctn .ab-cards .borderr .box .ab-img .likes .i {
   font-size: 1rem;
