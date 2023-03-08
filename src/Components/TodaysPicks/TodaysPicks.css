@@ -12,7 +12,10 @@
   font-size: 2rem;
   font-weight: 700;
 }
-
+.todays-picks .ctn > .title button {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
 .todays-picks .ctn .ab-cards {
   padding: 40px 0px;
   display: grid;

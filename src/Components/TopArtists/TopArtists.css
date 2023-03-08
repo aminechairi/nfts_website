@@ -54,6 +54,7 @@
 }
 .top-artists .swiper .borderr .box img {
   width: 70px;
+  border-radius: 50%;
 }
 .top-artists .swiper .borderr .box .data h1 {
   color: var(--text-1);

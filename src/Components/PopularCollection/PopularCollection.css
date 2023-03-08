@@ -1,0 +1,99 @@
+.popular_collection {
+  background-color: var(--color-1);
+}
+.popular_collection .ctn > .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--borders);
+  padding: 20px 0px;
+}
+.popular_collection .ctn > .title h1 {
+  color: var(--text-1);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.popular_collection .ctn > .title button {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.popular_collection .ctn .ab_cards {
+  padding: 40px 0px;
+  display: grid;
+  gap: 30px 40px;
+}
+@media (min-width: 992px) {
+  .popular_collection .ctn .ab_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px 40px;
+  }  
+}
+.popular_collection .ctn .ab_cards .card {
+  background-color: var(--color-3);
+  padding: 20px;
+  border-radius: 10px;
+}
+.popular_collection .ctn .ab_cards .card .ab_imgs {
+  display: flex;
+  column-gap: 20px;
+  align-items: flex-start;
+}
+.popular_collection .ctn .ab_cards .card .ab_imgs img {
+  display: block;
+}
+.popular_collection .ctn .ab_cards .card .ab_imgs .off {
+  width: 75%;
+  background-color: aqua;
+}
+.popular_collection .ctn .ab_cards .card .ab_imgs .imgs_list {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.popular_collection .ctn .ab_cards .card .name_likes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0px;
+}
+.popular_collection .ctn .ab_cards .card .name_likes h1 {
+  font-size: 1.2rem;
+  color: var(--text-1);
+  transition: 0.2s all;
+}
+.popular_collection .ctn .ab_cards .card .likes {
+  background-color: var(--text-1);
+  border-radius: 10px;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  column-gap: 6px;
+  padding: 6px;
+}
+.popular_collection .ctn .ab_cards .card .likes .i {
+  font-size: 1rem;
+}
+.popular_collection .ctn .ab_cards .card .likes .number-likes {
+  font-size: 0.8rem;
+  font-size: 600;
+}
+.popular_collection .ctn .ab_cards .card .acount {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+.popular_collection .ctn .ab_cards .card .acount img {
+  width: 50px;
+  border-radius: 50%;
+}
+.popular_collection .ctn .ab_cards .card .acount .data h1 {
+  color: var(--text-1);
+  font-size: 1rem;
+}
+.popular_collection .ctn .ab_cards .card .acount .data p {
+  font-size: 1rem;
+  color: var(--text-2);
+}

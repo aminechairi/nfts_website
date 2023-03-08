@@ -4,6 +4,7 @@
 .live-auctions .ctn > .title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid var(--borders);
   padding: 20px 0px;
 }
@@ -11,6 +12,10 @@
   color: var(--text-1);
   font-size: 2rem;
   font-weight: 700;
+}
+.live-auctions .ctn > .title button {
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 .live-auctions .ctn .ab-cards {
   padding: 40px 0px;

@@ -4,6 +4,8 @@ import TopArtists from "./Components/TopArtists/TopArtists";
 import LiveAuctions from "./Components/LiveAuctions/LiveAuctions";
 import TodaysPicks from "./Components/TodaysPicks/TodaysPicks";
 import CoreFeatures from "./Components/CoreFeatures/CoreFeatures";
+import PopularCollection from "./Components/PopularCollection/PopularCollection";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -14,7 +16,10 @@ function App() {
       <LiveAuctions />
       <TodaysPicks />
       <CoreFeatures />
+      <PopularCollection />
+      <Footer />
     </>
   );
 }
+
 export default App;

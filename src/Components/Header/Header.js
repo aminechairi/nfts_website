@@ -26,7 +26,7 @@ export default function Header() {
             </div>
           </div>
           <div className="img">
-            <img src={ require("../../images/3d-nft-icon-nft-memes_629802-24-removebg-preview.png") } alt="" />
+            <img src={ require("../../images/slider-1.png") } alt="" />
           </div>
         </div>
       </div>

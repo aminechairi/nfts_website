@@ -1,0 +1,15 @@
+.footer {
+  background-color: var(--color-3);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  display: block;
+  max-height: 50px;
+}
+.logo h1 {
+  font-size: 2rem;
+}

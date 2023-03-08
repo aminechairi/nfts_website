@@ -19,17 +19,14 @@ export default function LiveAuctions() {
           </div>
         </div>
         <div className="ab-cards">
-        {
-          Array.from(Array(8)).map(() => {
-            return (
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/nft_img02.jpg") } alt="" />
+                <img src={ require("../../images/portfolio-01 (1).jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
-                    4.5k
+                    40k
                   </div>
                 </div>
               </div>
@@ -38,7 +35,7 @@ export default function LiveAuctions() {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/image-04.png") } alt="" />
+                  <img src={ require("../../images/creator-01.png") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -52,13 +49,112 @@ export default function LiveAuctions() {
                 </div>
               </div>
               <div className="n">
-                05 : 15 : 07 : 45
+              05 : 15 : 07 : 45
               </div>
             </div>
           </div>
-            )
-          })
-        }
+          <div className="borderr">
+            <div className="box">
+              <div className="ab-img">
+                <img src={ require("../../images/portfolio-02 (1).jpg") } alt="" />
+                <div className="likes">
+                  <FcLike className="i" />
+                  <div className="number-likes">
+                    3.2k
+                  </div>
+                </div>
+              </div>
+              <h1 className="title">
+                25-Bit Digital #729
+              </h1>
+              <div className="persons">
+                <div className="img">
+                  <img src={ require("../../images/image-02.png") } alt="" />
+                </div>
+                <div className="data">
+                  <div className="a">
+                    <h2>@Devid_Meth...</h2>
+                    <h2>3.49 ETH</h2>
+                  </div>
+                  <div className="b">
+                    <p>creator</p>
+                    <h2>Current Bit</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="n">
+              05 : 15 : 07 : 45
+              </div>
+            </div>
+          </div>
+          <div className="borderr">
+            <div className="box">
+              <div className="ab-img">
+                <img src={ require("../../images/portfolio-03 (1).jpg") } alt="" />
+                <div className="likes">
+                  <FcLike className="i" />
+                  <div className="number-likes">
+                    1,900
+                  </div>
+                </div>
+              </div>
+              <h1 className="title">
+                27-Bit Digital #395
+              </h1>
+              <div className="persons">
+                <div className="img">
+                  <img src={ require("../../images/creator-03.png") } alt="" />
+                </div>
+                <div className="data">
+                  <div className="a">
+                    <h2>@Jemmy_Fra...</h2>
+                    <h2>6.29 ETH</h2>
+                  </div>
+                  <div className="b">
+                    <p>creator</p>
+                    <h2>Current Bit</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="n">
+              05 : 15 : 07 : 45
+              </div>
+            </div>
+          </div>
+          <div className="borderr">
+            <div className="box">
+              <div className="ab-img">
+                <img src={ require("../../images/portfolio-09.jpg") } alt="" />
+                <div className="likes">
+                  <FcLike className="i" />
+                  <div className="number-likes">
+                    7.3k
+                  </div>
+                </div>
+              </div>
+              <h1 className="title">
+                27-Bit Digital #395
+              </h1>
+              <div className="persons">
+                <div className="img">
+                  <img src={ require("../../images/creator-04.png") } alt="" />
+                </div>
+                <div className="data">
+                  <div className="a">
+                    <h2>@Miliya_Cho...</h2>
+                    <h2>6.29 ETH</h2>
+                  </div>
+                  <div className="b">
+                    <p>creator</p>
+                    <h2>Current Bit</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="n">
+              05 : 15 : 07 : 45
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
