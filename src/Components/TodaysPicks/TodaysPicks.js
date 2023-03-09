@@ -22,6 +22,48 @@ export default function TodaysPicks( props ) {
             </button>
           </div>
         </div>
+          <div className="ffilteration"
+            style={{
+              display: props.headerComponent === true ? "none" : "flex",
+            }}
+          >
+            <button
+              type="button"
+              className="button_2 active"
+              >
+                All
+            </button>
+            <button
+              type="button"
+              className="button_2"
+              >
+                Digital Art
+            </button>
+            <button
+              type="button"
+              className="button_2"
+              >
+                Music
+            </button>
+            <button
+              type="button"
+              className="button_2"
+              >
+                3D Illustration
+            </button>
+            <button
+              type="button"
+              className="button_2"
+              >
+                Digital Art
+            </button>
+            <button
+              type="button"
+              className="button_2"
+              >
+                Music
+            </button>
+          </div>
         <div className="ab-cards">
           <div className="borderr">
             <div className="box">

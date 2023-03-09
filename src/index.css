@@ -36,7 +36,7 @@
 /* end media query */
 
 :root {
-  --text-1: #ffffff;
+  --text-1: #e7e7e7;
   --text-2: #bbbbbb;
   --color-1: #141420;  
   --color-2: #5142fc;
@@ -79,7 +79,7 @@ body {
   font-size: 1rem;
   color: var(--text-1);
   padding: 8px 22px;
-  border: 2px solid var(--text-2);
+  border: 2px solid var(--borders);
   transition: all 0.2s;
   border-radius: 20px;
 }

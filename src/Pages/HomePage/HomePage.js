@@ -14,7 +14,7 @@ export default function HomePage() {
       <Header />
       <TopArtists />
       <LiveAuctions />
-      <TodaysPicks />
+      <TodaysPicks headerComponent={true} />
       <CoreFeatures />
       <PopularCollection />
       <Footer />

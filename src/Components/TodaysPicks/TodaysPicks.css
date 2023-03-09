@@ -16,8 +16,21 @@
   flex-shrink: 0;
   white-space: nowrap;
 }
+.todays-picks .ctn .ffilteration {
+  display: flex;
+  padding: 20px 0px;
+  column-gap: 10px;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--borders);
+}
+.todays-picks .ctn .ffilteration button {
+  flex-shrink: 0;
+}
+.todays-picks .ctn .ffilteration::-webkit-scrollbar {
+  display: none;
+}
 .todays-picks .ctn .ab-cards {
-  padding: 40px 0px;
+  padding: 20px 0px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px 40px;
