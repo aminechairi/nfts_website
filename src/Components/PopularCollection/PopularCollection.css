@@ -62,22 +62,6 @@
   color: var(--text-1);
   transition: 0.2s all;
 }
-.popular_collection .ctn .ab_cards .card .likes {
-  background-color: var(--text-1);
-  border-radius: 10px;
-  display: flex;
-  width: fit-content;
-  height: fit-content;
-  column-gap: 6px;
-  padding: 6px;
-}
-.popular_collection .ctn .ab_cards .card .likes .i {
-  font-size: 1rem;
-}
-.popular_collection .ctn .ab_cards .card .likes .number-likes {
-  font-size: 0.8rem;
-  font-size: 600;
-}
 .popular_collection .ctn .ab_cards .card .acount {
   display: flex;
   align-items: center;

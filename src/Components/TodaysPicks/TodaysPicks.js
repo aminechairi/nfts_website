@@ -1,5 +1,7 @@
 import "./TodaysPicks.css";
 import { FcLike } from 'react-icons/fc';
+import { Link } from "react-router-dom";
+import scrollTop from "../../Functions/scrollTop";
 
 export default function TodaysPicks( props ) {
   return (
@@ -14,12 +16,14 @@ export default function TodaysPicks( props ) {
             Today's Picks
           </h1>
           <div className="button"> 
-            <button
-              type="button"
-              className="button_2"
-              >
-                View All
-            </button>
+            <Link onClick={scrollTop} to="/explore">
+              <button
+                type="button"
+                className="button_2"
+                >
+                  View All
+              </button>
+            </Link>
           </div>
         </div>
           <div className="ffilteration"

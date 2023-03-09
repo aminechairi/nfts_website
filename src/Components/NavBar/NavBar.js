@@ -2,35 +2,38 @@ import "./NavBar.css";
 import { AiFillCaretDown, AiOutlineSearch, AiOutlineMenu, AiOutlineWallet } from 'react-icons/ai';
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import scrollTop from "../../Functions/scrollTop";
 
 export default function NavBar() {
 
   let [menu, setMenu] = useState(false);
   let [menuPages, setMenuPages] = useState(false);
 
-  function scrollTop() {
-    document.documentElement.scrollTop = 0;
-  }
-
   return (
     <>
       <nav className="navbar">
         <div className="ctn">
-          <div className="logo">
-            <img src={ require("../../images/3d-nft-icon-nft-memes_629802-24-removebg-preview.png") } alt="" />
-            <h1 className="font-bold">
-              NFT
-            </h1>
-          </div>
+          <Link onClick={scrollTop} to="/">
+            <div className="logo">
+              <img src={ require("../../images/3d-nft-icon-nft-memes_629802-24-removebg-preview.png") } alt="" />
+              <h1 className="font-bold">
+                NFT
+              </h1>
+            </div>
+          </Link>
           <ul className="menu">
             <Link onClick={scrollTop} to="/" className="ln"> Home </Link>
-            <Link onClick={scrollTop} to="/Explore" className="ln"> Explore </Link>
+            <Link onClick={scrollTop} to="/explore" className="ln"> Explore </Link>
             <li className="ln"> Community </li>
             <li className="ln pages">
               Pages <AiFillCaretDown />
                 <ul className="menu-pages">
-                  <li className="lp"> Explore Items </li>
-                  <li className="lp"> Item Details </li>
+                  <Link onClick={scrollTop} to="/explore">
+                    <li className="lp"> Explore Items </li>
+                  </Link>
+                  <Link onClick={scrollTop} to="/item-details">
+                    <li className="lp"> Item Details </li>
+                  </Link>
                   <li className="lp"> Create Item </li>
                   <li className="lp"> Connect Wallet </li>
                   <li className="lp"> Support </li>
@@ -98,8 +101,12 @@ export default function NavBar() {
                     }}
                   >
                     <ul className="menu-pages">
-                      <li className="lp"> Explore Items </li>
-                      <li className="lp"> Item Details </li>
+                      <Link onClick={scrollTop} to="/explore">
+                        <li className="lp"> Explore Items </li>
+                      </Link>
+                      <Link onClick={scrollTop} to="/item-details">
+                        <li className="lp"> Item Details </li>
+                      </Link>                      
                       <li className="lp"> Create Item </li>
                       <li className="lp"> Connect Wallet </li>
                       <li className="lp"> Support </li>

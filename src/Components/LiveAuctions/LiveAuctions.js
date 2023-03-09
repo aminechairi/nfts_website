@@ -49,7 +49,7 @@ export default function LiveAuctions() {
                 </div>
               </div>
               <div className="n">
-              05 : 15 : 07 : 45
+                05 : 15 : 07 : 45
               </div>
             </div>
           </div>

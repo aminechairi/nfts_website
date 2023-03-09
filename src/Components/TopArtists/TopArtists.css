@@ -68,9 +68,10 @@
   padding: 14px;
 }
 .swiper-pagination-bullet {
-  background-color: var(--text-1);
+  background-color: var(--text-2);
   width: 14px;
   height: 14px;
+  opacity: 0.7;
 }
 .swiper-pagination-bullet-active {
   background-color: var(--color-2);

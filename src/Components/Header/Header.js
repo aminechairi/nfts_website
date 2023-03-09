@@ -1,4 +1,6 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
+import scrollTop from "../../Functions/scrollTop";
 
 export default function Header() {
   return (
@@ -13,11 +15,13 @@ export default function Header() {
               Template for NFT, Token, and Web3 marketplace projects, based on Tailwind CSS. Comes with all the essential UI components and pages you need to build an NFT marketplace or all sorts of Web3 platforms.
             </p>
             <div className="buttons">
-              <button
-                type="button"
-                className="button_1">
-                  Explore now
-              </button>
+              <Link onClick={scrollTop} to="/explore">
+                <button
+                  type="button"
+                  className="button_1">
+                    Explore now
+                </button>
+              </Link>
               <button
                 type="button"
                 className="button_2">

@@ -54,7 +54,7 @@
 
 
 body {
-  background-color: var(--color-3);
+  background-color: var(--color-1);
 }
 
 
@@ -86,4 +86,27 @@ body {
 .button_2:hover {
   background-color: var(--color-2);
   border: 2px solid var(--color-2);
+}
+
+
+
+
+
+
+/* likes */
+.likes {
+  background-color: var(--text-1);
+  border-radius: 10px;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  column-gap: 6px;
+  padding: 6px;
+}
+.likes .i {
+  font-size: 1rem;
+}
+.likes .number-likes {
+  font-size: 0.8rem;
+  font-size: 600;
 }
