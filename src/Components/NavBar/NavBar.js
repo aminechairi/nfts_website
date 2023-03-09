@@ -1,11 +1,16 @@
 import "./NavBar.css";
 import { AiFillCaretDown, AiOutlineSearch, AiOutlineMenu, AiOutlineWallet } from 'react-icons/ai';
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
 
   let [menu, setMenu] = useState(false);
   let [menuPages, setMenuPages] = useState(false);
+
+  function scrollTop() {
+    document.documentElement.scrollTop = 0;
+  }
 
   return (
     <>
@@ -18,8 +23,8 @@ export default function NavBar() {
             </h1>
           </div>
           <ul className="menu">
-            <li className="ln"> Home </li>
-            <li className="ln"> Explore </li>
+            <Link onClick={scrollTop} to="/" className="ln"> Home </Link>
+            <Link onClick={scrollTop} to="/Explore" className="ln"> Explore </Link>
             <li className="ln"> Community </li>
             <li className="ln pages">
               Pages <AiFillCaretDown />
@@ -69,8 +74,12 @@ export default function NavBar() {
           }}
         >
               <ul className="menu-phone">
-                <li className="ln"> Home </li>
-                <li className="ln"> Explore </li>
+                <Link onClick={scrollTop} to="/">
+                  <li className="ln"> Home </li>
+                </Link>
+                <Link onClick={scrollTop} to="/explore">
+                  <li className="ln"> Explore </li>
+                </Link>                
                 <li className="ln"> Community </li>
                 <li className="ln pages">
                   <span onClick={() => {

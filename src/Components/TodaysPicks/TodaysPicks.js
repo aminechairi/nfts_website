@@ -1,11 +1,15 @@
 import "./TodaysPicks.css";
 import { FcLike } from 'react-icons/fc';
 
-export default function TodaysPicks() {
+export default function TodaysPicks( props ) {
   return (
     <div className="todays-picks">
       <div className="ctn">
-        <div className="title">
+        <div className="title"
+          style={{
+            display: props.headerComponent === true ? "flex" : "none",
+          }}
+        >
           <h1>
             Today's Picks
           </h1>

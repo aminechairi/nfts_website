@@ -1,24 +1,15 @@
-import NavBar from "./Components/NavBar/NavBar";
-import Header from "./Components/Header/Header";
-import TopArtists from "./Components/TopArtists/TopArtists";
-import LiveAuctions from "./Components/LiveAuctions/LiveAuctions";
-import TodaysPicks from "./Components/TodaysPicks/TodaysPicks";
-import CoreFeatures from "./Components/CoreFeatures/CoreFeatures";
-import PopularCollection from "./Components/PopularCollection/PopularCollection";
-import Footer from "./Components/Footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./Pages/HomePage/HomePage";
+import Explore from "./Pages/Explore/Explore";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <Header />
-      <TopArtists />
-      <LiveAuctions />
-      <TodaysPicks />
-      <CoreFeatures />
-      <PopularCollection />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>    
+        <Route path="/" element={<HomePage />} />
+        <Route path="/Explore" element={<Explore />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

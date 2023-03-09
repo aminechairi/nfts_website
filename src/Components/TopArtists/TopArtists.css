@@ -29,9 +29,6 @@
 }
 .top-artists .swiper {
   padding: 40px 0px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px 40px;
 }
 .top-artists .swiper .borderr {
   border-radius: 20px;
@@ -63,4 +60,21 @@
 .top-artists .swiper .borderr .box .data h2 {
   color: #36b37e;
   font-size: 1.2rem;
+}
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  transform: translateY(16px);
+}
+.swiper-pagination-bullet {
+  background-color: var(--text-1);
+  width: 14px;
+  height: 14px;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--color-2);
+  width: 14px;
+  height: 14px;
 }
