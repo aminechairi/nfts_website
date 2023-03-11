@@ -93,8 +93,6 @@ export default function ItemDetails() {
                 04 April , 2021
                 </span>
               </li>
-            </ul>
-            <ul className="list">
               <li>
                 <span className="key">
                   Current Bid : 
