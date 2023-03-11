@@ -34,7 +34,9 @@ export default function NavBar() {
                   <Link onClick={scrollTop} to="/item-details">
                     <li className="lp"> Item Details </li>
                   </Link>
-                  <li className="lp"> Create Item </li>
+                  <Link onClick={scrollTop} to="/create-item">
+                    <li className="lp"> Create Item </li>
+                  </Link>
                   <li className="lp"> Connect Wallet </li>
                   <li className="lp"> Support </li>
                   <li className="lp"> Sign In Page </li>
@@ -106,8 +108,10 @@ export default function NavBar() {
                       </Link>
                       <Link onClick={scrollTop} to="/item-details">
                         <li className="lp"> Item Details </li>
-                      </Link>                      
-                      <li className="lp"> Create Item </li>
+                      </Link>
+                      <Link onClick={scrollTop} to="/create-item">
+                        <li className="lp"> Create Item </li>
+                      </Link>
                       <li className="lp"> Connect Wallet </li>
                       <li className="lp"> Support </li>
                       <li className="lp"> Sign In Page </li>

@@ -2,33 +2,34 @@
   background-color: var(--color-1);
   padding: 20px 0px 40px;
 }
-.item_details .ctn {
+.item_details .ctn .ab_id {
   display: flex;
   gap: 20px;
   flex-direction: column;
+  margin-bottom: 20px;
 }
-.item_details .ctn .mySwiper img {
+.item_details .ctn .ab_id .mySwiper img {
   width: 100%;
 }
-.item_details .ctn .img {
+.item_details .ctn .ab_id .img {
   padding: 20px;
   background-color: var(--borders);
   overflow: hidden;
   border-radius: 10px;
 }
-.item_details .ctn .data .title {
+.item_details .ctn .ab_id .data .title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
   column-gap: 14px;
 }
-.item_details .ctn .data .title h1 {
+.item_details .ctn .ab_id .data .title h1 {
   color: var(--text-1);
   font-size: 1.8rem;
   font-weight: 700;
 }
-.item_details .ctn .acounts {
+.item_details .ctn .ab_id .acounts {
   display: flex;
   column-gap: 2px;
   background-color: var(--borders);
@@ -36,8 +37,9 @@
   border-top-right-radius: 10px;
   overflow: hidden;
   flex-direction: column;
+  border-bottom: 1px solid  var(--borders);
 }
-.item_details .ctn .acounts .box {
+.item_details .ctn .ab_id .acounts .box {
   background-color: var(--color-3);
   padding: 14px;
   display: flex;
@@ -46,53 +48,52 @@
   cursor: pointer;
   flex-grow: 1;
 }
-.item_details .ctn .acounts .box img {
+.item_details .ctn .ab_id .acounts .box img {
   width: 50px;
   border-radius: 50%;
 }
-.item_details .ctn .acounts .box .data h1 {
+.item_details .ctn .ab_id .acounts .box .data h1 {
   color: var(--text-1);
   font-size: 1.2rem;
 }
-.item_details .ctn .acounts .box .data p {
+.item_details .ctn .ab_id .acounts .box .data p {
   font-size: 1rem;
   color: var(--text-2);
 }
-.item_details .ctn .description {
-  padding: 0px 14px 14px;
+.item_details .ctn .ab_id .description {
+  padding: 14px;
   margin-bottom: 20px;
   background-color: var(--color-3);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.item_details .ctn .description p {
+.item_details .ctn .ab_id .description p {
   color: var(--text-2);
   font-size: 1.2rem;
 }
-.item_details .ctn .specifications {
+.item_details .ctn .ab_id .specifications {
   background-color: var(--borders);
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 20px;
 }
-.item_details .ctn .specifications .list {
+.item_details .ctn .ab_id .specifications .list {
   padding: 14px;
   flex-grow: 1;
   background-color: var(--color-3);
 }
-.item_details .ctn .specifications .list li {
+.item_details .ctn .ab_id .specifications .list li {
   padding: 4px 0px;
 }
-.item_details .ctn .specifications .list li .key {
+.item_details .ctn .ab_id .specifications .list li .key {
   color: var(--text-2);
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
-.item_details .ctn .specifications .list li .value {
+.item_details .ctn .ab_id .specifications .list li .value {
   color: var(--text-1);
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
-.item_details .ctn .specifications .list .n {
+.item_details .ctn .ab_id .specifications .list .n {
   background-color: #565664;
   color: var(--text-1);
   font-size: 1.2rem;
@@ -126,31 +127,59 @@
   background-color: transparent;
   padding: 14px;
 }
-.item_details .ctn .data .place_bid {
-  padding: 14px 0px;
+.item_details .ctn .hbd .acounts {
+  display: flex;
+  background-color: var(--borders);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  flex-direction: column;
 }
-.item_details .ctn .data .place_bid button {
+.item_details .ctn .hbd .acounts .box {
+  background-color: var(--color-3);
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  cursor: pointer;
+  flex-grow: 1;
+}
+.item_details .ctn .hbd .acounts .box img {
+  width: 50px;
+  border-radius: 50%;
+}
+.item_details .ctn .hbd .acounts .box .data h1 {
+  color: var(--text-1);
+  font-size: 1.2rem;
+}
+.item_details .ctn .hbd .acounts .box .data p {
+  font-size: 1rem;
+  color: var(--text-2);
+}
+.item_details .ctn .place_bid {
+  padding: 14px 0px 0px;
+}
+.item_details .ctn .place_bid button {
   width: 100%;
 }
 @media (min-width: 992px) {
-  .item_details .ctn {
+  .item_details .ctn .ab_id {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
   }
-  .item_details .ctn .img {
+  .item_details .ctn .ab_id .img {
     width: 40%;
-    margin-top: 20px;
   }
-  .item_details .ctn .data {
+  .item_details .ctn .ab_id .data {
     width: 60%;
   }
-  .item_details .ctn .acounts {
+  .item_details .ctn .ab_id .acounts {
     flex-direction: row;
   }
-  .item_details .ctn .acounts .box {
+  .item_details .ctn .ab_id .acounts .box {
     padding: 14px;
   }
-  .item_details .ctn .description {
+  .item_details .ctn .ab_id .description {
     padding: 14px;
   }
 }

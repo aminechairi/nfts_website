@@ -1,0 +1,139 @@
+.createI_tem {
+  background-color: var(--color-1);
+}
+.createI_tem .ctn {
+  padding: 0px;
+}
+.createI_tem .ctn form {
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+.createI_tem .ctn form .upload .upload_img input[type="file"] {
+  display: none;
+}
+.createI_tem .ctn form .upload {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.createI_tem .ctn form .upload .upload_img {
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+.createI_tem .ctn form .upload .upload_img .custom-file-upload {
+  border: 1px solid var(--borders);
+  border-radius: 10px;
+  padding: 40px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 14px;
+  height: 100%;
+  background-color: var(--color-inputs);
+}
+.createI_tem .ctn form .upload .upload_img .custom-file-upload .i {
+  color: var(--text-2);
+  font-size: 3rem;
+}
+.createI_tem .ctn form .upload .upload_img .custom-file-upload h1 {
+  color: var(--text-1);
+  font-size: 2rem;
+}
+.createI_tem .ctn form .upload .upload_img .custom-file-upload p {
+  color: var(--text-2);
+  font-size: 1rem;
+  text-align: center;
+}
+.createI_tem .ctn form .upload .upload_img .custom-file-upload .button {
+  display: block;
+  font-size: 1rem;
+  color: var(--text-1);
+  padding: 8px 22px;
+  border: 2px solid var(--borders);
+  transition: all 0.2s;
+  border-radius: 20px;
+  width: fit-content;
+}
+.createI_tem .ctn form .upload .ab_banner_design {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.createI_tem .ctn form .upload .banner_design {
+  font-size: 1.2rem;
+  color: var(--text-1);
+  background-color: var(--color-inputs);
+  padding: 14px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.createI_tem .ctn form .upload .banner_design .i {
+  cursor: pointer;
+}
+.createI_tem .ctn form .data {
+  flex-grow: 2;
+}
+.createI_tem .ctn form .data .i_g {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+.createI_tem .ctn form .data .i_g .gs {
+  flex-grow: 1;
+}
+.createI_tem .ctn form .data label {
+  display: block;
+  color: var(--text-1);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.createI_tem .ctn form .data input,textarea {
+  display: block;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: var(--color-inputs);
+  padding: 14px;
+  font-size: 1rem;
+  color: var(--text-1);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.createI_tem .ctn form .data button[type="submit"] {
+  width: 100%;
+}
+.createI_tem .ctn form .data input:focus {
+  outline: 2px solid var(--borders);
+}
+.createI_tem .ctn form .data textarea:focus {
+  outline: 2px solid var(--borders);
+}
+.createI_tem .ctn form .data input::placeholder {
+  color: var(--text-2);
+}
+.createI_tem .ctn form .data textarea::placeholder {
+  color: var(--text-2);
+}
+.createI_tem .ctn form .data h1 {
+  color: var(--text-1);
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.createI_tem .ctn form .data span {
+  color: var(--text-2);
+}
+@media ( min-width: 992px) {
+  .createI_tem .ctn form {
+    flex-direction: row-reverse;
+  }
+  .createI_tem .ctn form .data .i_g {
+    flex-direction: row;
+  }
+}
