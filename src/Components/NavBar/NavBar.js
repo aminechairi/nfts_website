@@ -40,12 +40,14 @@ export default function NavBar() {
                   <Link onClick={scrollTop} to="/connect-wallet">
                     <li className="lp"> Connect Wallet </li>
                   </Link>
-                  <li className="lp"> Support </li>
+                  <Link onClick={scrollTop} to="/support">
+                    <li className="lp"> Support </li>
+                  </Link>
                   <li className="lp"> Sign In Page </li>
                   <li className="lp"> Sign Up Page </li>
                 </ul>
             </li>
-            <li className="ln"> Support </li>
+            <Link onClick={scrollTop} to="/support" className="ln"> Support </Link>
           </ul>
           <div className="search">
             <AiOutlineSearch className="i" />
@@ -119,12 +121,16 @@ export default function NavBar() {
                       <Link onClick={scrollTop} to="/connect-wallet">
                         <li className="lp"> Connect Wallet </li>
                       </Link>
-                      <li className="lp"> Support </li>
+                      <Link onClick={scrollTop} to="/support">
+                        <li className="lp"> Support </li>
+                      </Link>
                       <li className="lp"> Sign In Page </li>
                       <li className="lp"> Sign Up Page </li>
                     </ul>
                   </div>
-                <li className="ln"> Support </li>
+                <Link onClick={scrollTop} to="/support">
+                  <li className="ln"> Support </li>
+                </Link>   
               </ul>
         </div>
         <div className="bg"

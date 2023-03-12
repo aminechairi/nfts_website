@@ -87,39 +87,8 @@
 .createI_tem .ctn form .data .i_g .gs {
   flex-grow: 1;
 }
-.createI_tem .ctn form .data label {
-  display: block;
-  color: var(--text-1);
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-.createI_tem .ctn form .data input,textarea {
-  display: block;
-  border: none;
-  outline: none;
-  width: 100%;
-  background-color: var(--color-inputs);
-  padding: 14px;
-  font-size: 1rem;
-  color: var(--text-1);
-  margin-bottom: 20px;
-  border-radius: 10px;
-}
 .createI_tem .ctn form .data button[type="submit"] {
   width: 100%;
-}
-.createI_tem .ctn form .data input:focus {
-  outline: 1px solid var(--color-2);
-}
-.createI_tem .ctn form .data textarea:focus {
-  outline: 1px solid var(--color-2);
-}
-.createI_tem .ctn form .data input::placeholder {
-  color: var(--text-2);
-}
-.createI_tem .ctn form .data textarea::placeholder {
-  color: var(--text-2);
 }
 .createI_tem .ctn form .data h1 {
   color: var(--text-1);
