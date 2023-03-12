@@ -5,6 +5,7 @@ import ItemDetails from "./Pages/ItemDetails/ItemDetails";
 import CreateItem from "./Pages/CreateItem/CreateItem";
 import ConnectWallet from "./Pages/ConnectWallet.js/ConnectWallet";
 import Support from "./Pages/Support/Support";
+import Signin from "./Pages/Signin/Signin";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/create-item" element={<CreateItem />} />
         <Route path="/connect-wallet" element={<ConnectWallet />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/signin" element={<Signin />} />
       </Routes>
     </BrowserRouter>
   );

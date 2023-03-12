@@ -89,7 +89,7 @@ export default function Support() {
             <button
               type="submit"
               className="button_1">
-                Wallet Connect
+                Send Message
             </button>
           </form>
         </div>
