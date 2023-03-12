@@ -1,0 +1,73 @@
+.signup {
+  background-image: url('../../images/common-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signup .bg {
+  padding: 20px 0px 40px;
+  background-image: linear-gradient(to top, var(--color-1), #00000046);
+}
+.signup .bg .ctn .form {
+  background-color: var(--color-3);
+  padding: 14px;
+  border-radius: 10px;
+  width: 100%;
+}
+.signup .bg .ctn .form h1 {
+  color: var(--text-1);
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.signup .bg .ctn .form p {
+  color: var(--text-2);
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.signup .bg .ctn .form .big_comp {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  margin-bottom: 20px;
+}
+.signup .bg .ctn .form .big_comp li {
+  font-size: 1.5rem;
+  border: 1px solid var(--borders);
+  padding: 7px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.signup .bg .ctn .form .big_comp li:hover {
+  background-color: var(--text-1);
+}
+.signup .bg .ctn .form .big_comp :nth-child(2) .i {
+  color: #0080ff;
+}
+.signup .bg .ctn .form .big_comp :nth-child(3) .i {
+  color: #03a9f4;
+}
+.signup .bg .ctn .form .border {
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--borders);
+}
+.signup .bg .ctn .form .sw {
+  margin: 0px;
+}
+.signup .bg .ctn .form .sw :nth-child(2) {
+  color: var(--color-2);
+  cursor: pointer;
+}
+.signup .bg .ctn .form form button[type="submit"] {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.signup .bg .ctn .form form button[type="submit"]:focus {
+  outline: 1px solid var(--color-2);
+}
+@media (min-width: 768px) {
+  .signup .bg .ctn .form {
+    width: 440px;
+    margin: 0 auto;
+  }
+}

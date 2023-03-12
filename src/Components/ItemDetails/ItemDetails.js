@@ -159,7 +159,7 @@ export default function ItemDetails() {
             type="button"
             className="button_1 active"
             >
-              History
+              Place Bid
           </button>
         </div>
       </div>

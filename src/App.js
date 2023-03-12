@@ -6,6 +6,7 @@ import CreateItem from "./Pages/CreateItem/CreateItem";
 import ConnectWallet from "./Pages/ConnectWallet.js/ConnectWallet";
 import Support from "./Pages/Support/Support";
 import Signin from "./Pages/Signin/Signin";
+import Signup from "./Pages/Signup/Signup";
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
         <Route path="/connect-wallet" element={<ConnectWallet />} />
         <Route path="/support" element={<Support />} />
         <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
 export default App;

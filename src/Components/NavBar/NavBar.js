@@ -46,7 +46,9 @@ export default function NavBar() {
                   <Link onClick={scrollTop} to="/signin">
                     <li className="lp"> Sign In Page </li>
                   </Link>
-                  <li className="lp"> Sign Up Page </li>
+                  <Link onClick={scrollTop} to="/signup">
+                    <li className="lp"> Sign Up Page </li>
+                  </Link>
                 </ul>
             </li>
             <Link onClick={scrollTop} to="/support" className="ln"> Support </Link>
@@ -129,7 +131,9 @@ export default function NavBar() {
                       <Link onClick={scrollTop} to="/signin">
                         <li className="lp"> Sign In Page </li>
                       </Link>
-                      <li className="lp"> Sign Up Page </li>
+                      <Link onClick={scrollTop} to="/signup">
+                        <li className="lp"> Sign Up Page </li>
+                      </Link>
                     </ul>
                   </div>
                 <Link onClick={scrollTop} to="/support">
