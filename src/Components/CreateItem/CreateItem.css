@@ -110,10 +110,10 @@
   width: 100%;
 }
 .createI_tem .ctn form .data input:focus {
-  outline: 2px solid var(--borders);
+  outline: 1px solid var(--color-2);
 }
 .createI_tem .ctn form .data textarea:focus {
-  outline: 2px solid var(--borders);
+  outline: 1px solid var(--color-2);
 }
 .createI_tem .ctn form .data input::placeholder {
   color: var(--text-2);

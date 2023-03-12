@@ -37,7 +37,9 @@ export default function NavBar() {
                   <Link onClick={scrollTop} to="/create-item">
                     <li className="lp"> Create Item </li>
                   </Link>
-                  <li className="lp"> Connect Wallet </li>
+                  <Link onClick={scrollTop} to="/connect-wallet">
+                    <li className="lp"> Connect Wallet </li>
+                  </Link>
                   <li className="lp"> Support </li>
                   <li className="lp"> Sign In Page </li>
                   <li className="lp"> Sign Up Page </li>
@@ -50,12 +52,14 @@ export default function NavBar() {
             <input type="search" placeholder="Search" />
           </div>
           <div className="button">
-            <button
-              type="button"
-              className="button_2">
-                <AiOutlineWallet />
-                Wallet Connect
-            </button>
+            <Link onClick={scrollTop} to="/connect-wallet">
+              <button
+                type="button"
+                className="button_2">
+                  <AiOutlineWallet />
+                  Wallet Connect
+              </button>
+            </Link>
           </div>
           <div className="menu-phone-icon">
             <AiOutlineMenu onClick={() => {
@@ -112,7 +116,9 @@ export default function NavBar() {
                       <Link onClick={scrollTop} to="/create-item">
                         <li className="lp"> Create Item </li>
                       </Link>
-                      <li className="lp"> Connect Wallet </li>
+                      <Link onClick={scrollTop} to="/connect-wallet">
+                        <li className="lp"> Connect Wallet </li>
+                      </Link>
                       <li className="lp"> Support </li>
                       <li className="lp"> Sign In Page </li>
                       <li className="lp"> Sign Up Page </li>

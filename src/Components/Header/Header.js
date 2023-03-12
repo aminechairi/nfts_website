@@ -22,11 +22,13 @@ export default function Header() {
                     Explore now
                 </button>
               </Link>
-              <button
-                type="button"
-                className="button_2">
-                  Upload Your Art
-              </button>
+              <Link onClick={scrollTop} to="/create-item">
+                <button
+                  type="button"
+                  className="button_2">
+                    Upload Your Art
+                </button>
+              </Link>
             </div>
           </div>
           <div className="img">

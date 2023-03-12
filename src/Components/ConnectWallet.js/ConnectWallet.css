@@ -1,13 +1,13 @@
-.core_features {
+.connectw_allet {
   background-color: var(--color-1);
-  padding: 20px 0px 20px;
+  padding: 40px 0px;
 }
-.core_features .ctn {
+.connectw_allet .ctn {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.core_features .ctn h1 {
+.connectw_allet .ctn h1 {
   color: var(--text-1);
   text-transform: capitalize;
   font-size: 3rem;
@@ -16,73 +16,84 @@
   font-weight: 700px;
   text-align: center;
 }
-.core_features .ctn p {
+.connectw_allet .ctn p {
   color: var(--text-2);
   text-transform: capitalize;
   font-size: 1.2rem;
   text-align: center;
 }
 @media (min-width: 768px) {
-  .core_features .ctn p {
+  .connectw_allet .ctn p {
     width: 600px;
   }
 }
-.boxs {
+.cards {
   background-color: var(--color-1);
 }
-.boxs .ctn {
+.cards .ctn {
   padding: 20px 15px 40px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px 40px;
 }
-.boxs .ctn .box {
+.cards .ctn .card {
   background-color: var(--color-3);
   padding: 20px;
   border-radius: 14px;
   transition: 0.2s all;
 }
-.boxs .ctn .box:hover {
+.cards .ctn .card:hover {
   background-color: var(--text-1);
 }
-.boxs .ctn .box .ab-icons {
+.cards .ctn .card .ab-icons {
   width: fit-content;
   padding: 20px;
   font-size: 2rem;
   border-radius: 50%;
   margin-bottom: 20px;
 }
-.boxs .ctn :nth-child(1) .ab-icons {
-  background-color: #fff0e9;
+.cards .ctn .card .ab-icons {
+  background-color: var(--text-1);
+}
+.cards .ctn :nth-child(1) .ab-icons {
   color: #ff766a;
 }
-.boxs .ctn :nth-child(2) .ab-icons {
-  background-color: #fff6dd;
+.cards .ctn :nth-child(2) .ab-icons {
   color: #f5b70a;
 }
-.boxs .ctn :nth-child(3) .ab-icons {
-  background-color: #edf8f4;
+.cards .ctn :nth-child(3) .ab-icons {
   color: #06de90;
 }
-.boxs .ctn :nth-child(4) .ab-icons {
-  background-color: #e1ddff;
+.cards .ctn :nth-child(4) .ab-icons {
   color: #5142fc;
 }
-.boxs .ctn .box h1 {
+.cards .ctn :nth-child(5) .ab-icons {
+  color: #ff766a;
+}
+.cards .ctn :nth-child(6) .ab-icons {
+  color: #f5b70a;
+}
+.cards .ctn :nth-child(7) .ab-icons {
+  color: #06de90;
+}
+.cards .ctn :nth-child(8) .ab-icons {
+  color: #5142fc;
+}
+.cards .ctn .card h1 {
   color: var(--text-1);
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.boxs .ctn .box:hover h1 {
+.cards .ctn .card:hover h1 {
   color: var(--color-1);
 }
-.boxs .ctn .box p {
+.cards .ctn .card p {
   color: var(--text-2);
   font-size: 1rem;
   font-family: 700;
   margin-bottom: 10px;
 }
-.boxs .ctn .box:hover p {
+.cards .ctn .card:hover p {
   color: var(--color-1);
 }

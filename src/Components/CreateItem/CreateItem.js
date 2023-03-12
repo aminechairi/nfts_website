@@ -38,7 +38,6 @@ export default function CreateItem() {
                 <AiFillCloseCircle className="i" />
               </div>
             </div>
-
           </div>
           <div className="data">
 
@@ -77,7 +76,7 @@ export default function CreateItem() {
                 </div>
                 <div className="gs">
                   <label htmlFor="size">
-                    Price
+                    Size
                   </label>
                   <input 
                     id="size" 

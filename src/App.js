@@ -3,6 +3,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 import Explore from "./Pages/Explore/Explore";
 import ItemDetails from "./Pages/ItemDetails/ItemDetails";
 import CreateItem from "./Pages/CreateItem/CreateItem";
+import ConnectWallet from "./Pages/ConnectWallet.js/ConnectWallet";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/explore" element={<Explore />} />
         <Route path="/item-details" element={<ItemDetails />} />
         <Route path="/create-item" element={<CreateItem />} />
+        <Route path="/connect-wallet" element={<ConnectWallet />} />
       </Routes>
     </BrowserRouter>
   );

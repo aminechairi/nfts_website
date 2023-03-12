@@ -21,6 +21,7 @@
   padding: 20px 0px 40px;
   display: grid;
   gap: 30px 40px;
+  align-items: flex-start;
 }
 @media (min-width: 992px) {
   .popular_collection .ctn .ab_cards {
@@ -41,6 +42,7 @@
 }
 .popular_collection .ctn .ab_cards .card .ab_imgs img {
   display: block;
+  width: 100%;
 }
 .popular_collection .ctn .ab_cards .card .ab_imgs .off {
   width: 75%;

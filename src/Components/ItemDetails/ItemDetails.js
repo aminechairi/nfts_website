@@ -146,10 +146,10 @@ export default function ItemDetails() {
               </div>
             </div>
             <div className="box">
-              <img src={ require("../../images/image-02.png") } alt="" />
+              <img src={ require("../../images/creator-03 (1).png") } alt="" />
               <div className="data">
-                <h1>@Wilium_Dev</h1>
-                <p>14.55 ETH</p>
+                <h1>@maxile_upe</h1>
+                <p>16.25 ETH</p>
               </div>
             </div>
           </div>
