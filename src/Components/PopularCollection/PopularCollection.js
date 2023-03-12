@@ -22,7 +22,7 @@ export default function PopularCollection() {
           <div className="card">
             <div className="ab_imgs">
               <div className="off">
-                <img src={ require("../../images/banner-01.jpg") } alt="" />
+                <img src={ require("../../images/portfolio-09.jpg") } alt="" />
               </div>
               <div className="imgs_list">
                 <img src={ require("../../images/banner-03.jpg") } alt="" />
