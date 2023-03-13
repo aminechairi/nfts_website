@@ -7,6 +7,7 @@ import ConnectWallet from "./Pages/ConnectWallet.js/ConnectWallet";
 import Support from "./Pages/Support/Support";
 import Signin from "./Pages/Signin/Signin";
 import Signup from "./Pages/Signup/Signup";
+import NoFound from "./Pages/NoFound/NoFound";
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="*" element={<NoFound />} />
       </Routes>
     </BrowserRouter>
   );
-}
+};
+
 export default App;

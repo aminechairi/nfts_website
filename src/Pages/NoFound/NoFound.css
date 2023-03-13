@@ -1,0 +1,12 @@
+.ab_no_found_page {
+  background-image: url("../../images/common-bg.jpg");
+  height: calc(100vh - 79.98px);
+}
+.ab_no_found_page .bg {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, var(--color-1), #00000046);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
