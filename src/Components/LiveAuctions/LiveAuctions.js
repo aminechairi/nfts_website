@@ -22,7 +22,7 @@ export default function LiveAuctions() {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-01 (1).jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -35,7 +35,7 @@ export default function LiveAuctions() {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/creator-01.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -56,7 +56,7 @@ export default function LiveAuctions() {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-02 (1).jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -69,7 +69,7 @@ export default function LiveAuctions() {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/image-02.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -90,7 +90,7 @@ export default function LiveAuctions() {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-03 (1).jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -103,7 +103,7 @@ export default function LiveAuctions() {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/creator-03.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -124,7 +124,7 @@ export default function LiveAuctions() {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-09.jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -137,7 +137,7 @@ export default function LiveAuctions() {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/creator-04.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">

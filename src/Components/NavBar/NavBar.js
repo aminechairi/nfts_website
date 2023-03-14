@@ -15,7 +15,7 @@ export default function NavBar() {
         <div className="ctn">
           <Link onClick={scrollTop} to="/">
             <div className="logo">
-              <img src={ require("../../images/3d-nft-icon-nft-memes_629802-24-removebg-preview.png") } alt="" />
+              <img src={ require("../../images/logo.jpg") } alt="" />
               <h1 className="font-bold">
                 NFT
               </h1>

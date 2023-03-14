@@ -57,7 +57,7 @@ export default function TopArtists() {
           <SwiperSlide>
             <div className="borderr">
               <div className="box">
-                <img src={ require("../../images/image-04.png") } alt="" />
+                <img src={ require("../../images/profiles.jpg") } alt="" />
                 <div className="data">
                   <h1>@Elon_Mask</h1>
                   <h2>12.25 ETH</h2>
@@ -68,7 +68,7 @@ export default function TopArtists() {
           <SwiperSlide>
             <div className="borderr">
               <div className="box">
-                <img src={ require("../../images/image-02.png") } alt="" />
+                <img src={ require("../../images/profiles.jpg") } alt="" />
                 <div className="data">
                   <h1>@Wilium_Dev</h1>
                   <h2>14.55 ETH</h2>
@@ -79,7 +79,7 @@ export default function TopArtists() {
           <SwiperSlide>
             <div className="borderr">
               <div className="box">
-                <img src={ require("../../images/image-03.png") } alt="" />
+                <img src={ require("../../images/profiles.jpg") } alt="" />
                 <div className="data">
                   <h1>@Hiliya_Farah</h1>
                   <h2>9.89 ETH</h2>
@@ -90,7 +90,7 @@ export default function TopArtists() {
           <SwiperSlide>
             <div className="borderr">
               <div className="box">
-                <img src={ require("../../images/image-04.png") } alt="" />
+                <img src={ require("../../images/profiles.jpg") } alt="" />
                 <div className="data">
                   <h1>@Elon_Mask</h1>
                   <h2>12.25 ETH</h2>
@@ -101,7 +101,7 @@ export default function TopArtists() {
           <SwiperSlide>
             <div className="borderr">
               <div className="box">
-                <img src={ require("../../images/image-02.png") } alt="" />
+                <img src={ require("../../images/profiles.jpg") } alt="" />
                 <div className="data">
                   <h1>@Wilium_Dev</h1>
                   <h2>14.55 ETH</h2>
@@ -112,7 +112,7 @@ export default function TopArtists() {
           <SwiperSlide>
             <div className="borderr">
               <div className="box">
-                <img src={ require("../../images/image-03.png") } alt="" />
+                <img src={ require("../../images/profiles.jpg") } alt="" />
                 <div className="data">
                   <h1>@Hiliya_Farah</h1>
                   <h2>9.89 ETH</h2>

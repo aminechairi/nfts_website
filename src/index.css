@@ -49,18 +49,9 @@
   --bg: #000000d7;
 }
 
-
-
-
-
-
 body {
   background-color: var(--color-1);
 }
-
-
-
-
 
 /* buttons styling  */
 /* button 1 */
@@ -90,11 +81,6 @@ body {
 }
 /* buttons styling  */
 
-
-
-
-
-
 /* likes */
 .likes {
   background-color: var(--text-1);
@@ -113,10 +99,6 @@ body {
   font-size: 600;
 }
 /* likes */
-
-
-
-
 
 /* inputs styling */
 label {

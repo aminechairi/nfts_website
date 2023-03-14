@@ -72,7 +72,7 @@ export default function TodaysPicks( props ) {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-05.jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -85,7 +85,7 @@ export default function TodaysPicks( props ) {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/image-02.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -115,7 +115,7 @@ export default function TodaysPicks( props ) {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-01.jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -128,7 +128,7 @@ export default function TodaysPicks( props ) {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/creator-02.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -158,7 +158,7 @@ export default function TodaysPicks( props ) {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-07.jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -171,7 +171,7 @@ export default function TodaysPicks( props ) {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/image-03.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -201,7 +201,7 @@ export default function TodaysPicks( props ) {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-04.jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -214,7 +214,7 @@ export default function TodaysPicks( props ) {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/creator-03 (1).png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -244,7 +244,7 @@ export default function TodaysPicks( props ) {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-01 (1).jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -257,7 +257,7 @@ export default function TodaysPicks( props ) {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/creator-04.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -287,7 +287,7 @@ export default function TodaysPicks( props ) {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-01.jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -300,7 +300,7 @@ export default function TodaysPicks( props ) {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/creator-02.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -330,7 +330,7 @@ export default function TodaysPicks( props ) {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-09.jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -343,7 +343,7 @@ export default function TodaysPicks( props ) {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/image-03.png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">
@@ -373,7 +373,7 @@ export default function TodaysPicks( props ) {
           <div className="borderr">
             <div className="box">
               <div className="ab-img">
-                <img src={ require("../../images/portfolio-02 (1).jpg") } alt="" />
+                <img src={ require("../../images/items.jpg") } alt="" />
                 <div className="likes">
                   <FcLike className="i" />
                   <div className="number-likes">
@@ -386,7 +386,7 @@ export default function TodaysPicks( props ) {
               </h1>
               <div className="persons">
                 <div className="img">
-                  <img src={ require("../../images/creator-03 (1).png") } alt="" />
+                  <img src={ require("../../images/profiles.jpg") } alt="" />
                 </div>
                 <div className="data">
                   <div className="a">

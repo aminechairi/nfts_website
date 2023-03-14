@@ -32,7 +32,7 @@ export default function Header() {
             </div>
           </div>
           <div className="img">
-            <img src={ require("../../images/slider-1.png") } alt="" />
+            <img src={ require("../../images/header image.jpg") } alt="" />
           </div>
         </div>
       </div>

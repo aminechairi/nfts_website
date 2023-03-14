@@ -22,12 +22,12 @@ export default function PopularCollection() {
           <div className="card">
             <div className="ab_imgs">
               <div className="off">
-                <img src={ require("../../images/portfolio-09.jpg") } alt="" />
+                <img src={ require("../../images/collections.jpg") } alt="" />
               </div>
               <div className="imgs_list">
-                <img src={ require("../../images/banner-03.jpg") } alt="" />
-                <img src={ require("../../images/banner-04.jpg") } alt="" />
-                <img src={ require("../../images/banner-02.jpg") } alt="" />
+                <img src={ require("../../images/collections.jpg") } alt="" />
+                <img src={ require("../../images/collections.jpg") } alt="" />
+                <img src={ require("../../images/collections.jpg") } alt="" />
               </div>
             </div>
             <div className="name_likes">
@@ -42,7 +42,7 @@ export default function PopularCollection() {
               </div>
             </div>
             <div className="acount">
-              <img src={ require("../../images/creator-01.jpg") } alt="" />
+              <img src={ require("../../images/profiles.jpg") } alt="" />
               <div className="data">
                 <h1>@Lathium_Lui...</h1>
                 <p>Creator</p>
@@ -53,12 +53,12 @@ export default function PopularCollection() {
             <div className="ab_imgs">
               <div className="off">
                 <img 
-                src={ require("../../images/portfolio-01.jpg") } alt="" />
+                src={ require("../../images/collections.jpg") } alt="" />
               </div>
               <div className="imgs_list">
-                <img src={ require("../../images/portfolio-02.jpg") } alt="" />
-                <img src={ require("../../images/portfolio-03.jpg") } alt="" />
-                <img src={ require("../../images/portfolio-03 (1).jpg") } alt="" />
+                <img src={ require("../../images/collections.jpg") } alt="" />
+                <img src={ require("../../images/collections.jpg") } alt="" />
+                <img src={ require("../../images/collections.jpg") } alt="" />
               </div>
             </div>
             <div className="name_likes">
@@ -73,7 +73,7 @@ export default function PopularCollection() {
               </div>
             </div>
             <div className="acount">
-              <img src={ require("../../images/creator-02.jpg") } alt="" />
+              <img src={ require("../../images/profiles.jpg") } alt="" />
               <div className="data">
                 <h1>@Andrio_Hev...</h1>
                 <p>Creator</p>

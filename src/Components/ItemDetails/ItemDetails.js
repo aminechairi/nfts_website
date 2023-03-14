@@ -22,16 +22,16 @@ export default function ItemDetails() {
               className="mySwiper"
             >
             <SwiperSlide>
-              <img src={ require("../../images/portfolio-01.jpg") } alt="" />
+              <img src={ require("../../images/items.jpg") } alt="" />
             </SwiperSlide>
               <SwiperSlide>
-              <img src={ require("../../images/portfolio-02.jpg") } alt="" />
+              <img src={ require("../../images/items.jpg") } alt="" />
               </SwiperSlide>
               <SwiperSlide>
-              <img src={ require("../../images/portfolio-01 (1).jpg") } alt="" />
+              <img src={ require("../../images/items.jpg") } alt="" />
               </SwiperSlide>
               <SwiperSlide>
-              <img src={ require("../../images/portfolio-05.jpg") } alt="" />
+              <img src={ require("../../images/items.jpg") } alt="" />
               </SwiperSlide>
             </Swiper>
           </div>
@@ -49,14 +49,14 @@ export default function ItemDetails() {
             </div>
             <div className="acounts">
               <div className="box">
-                <img src={ require("../../images/image-04.png") } alt="" />
+                <img src={ require("../../images/profiles.jpg") } alt="" />
                 <div className="data">
                   <h1>@Elon_Mask</h1>
                   <p>12.25 ETH</p>
                 </div>
               </div>
               <div className="box">
-                <img src={ require("../../images/image-02.png") } alt="" />
+                <img src={ require("../../images/profiles.jpg") } alt="" />
                 <div className="data">
                   <h1>@Wilium_Dev</h1>
                   <p>14.55 ETH</p>
@@ -132,21 +132,21 @@ export default function ItemDetails() {
           </div>
           <div className="acounts">
             <div className="box">
-              <img src={ require("../../images/image-04.png") } alt="" />
+              <img src={ require("../../images/profiles.jpg") } alt="" />
               <div className="data">
                 <h1>@Elon_Mask</h1>
                 <p>12.25 ETH</p>
               </div>
             </div>
             <div className="box">
-              <img src={ require("../../images/image-02.png") } alt="" />
+              <img src={ require("../../images/profiles.jpg") } alt="" />
               <div className="data">
                 <h1>@Wilium_Dev</h1>
                 <p>14.55 ETH</p>
               </div>
             </div>
             <div className="box">
-              <img src={ require("../../images/creator-03 (1).png") } alt="" />
+              <img src={ require("../../images/profiles.jpg") } alt="" />
               <div className="data">
                 <h1>@maxile_upe</h1>
                 <p>16.25 ETH</p>
